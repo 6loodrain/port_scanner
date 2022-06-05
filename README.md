@@ -40,10 +40,12 @@ Web-приложение для сканирования открытых TCP п
 ### 3.  Получаем результат
 ![Image Alt](https://sun9-west.userapi.com/sun9-48/s/v1/ig2/qslPIDdoAeVniHME31tFSXtkliipDIJhFi8Kzc8fO3tYTMj8axF1MfupFVRE04Oce7KN0DamPi5a4AQoZLD-A3vj.jpg?size=1920x1033&quality=96&type=album)
 ## Структура проекта
-1. port_scanner.py - исполняемый файл
-2. README.md - у вас перед глазами
-3. requirements.txt - файл для установки всех зависимостей с помощью `pip freeze`
-4. test_port_scanner.py - набор тестов
+1. `.gitignore` - настройка игнорируемых файлов
+2. `LICENSE` - информация о лицензии
+3. `port_scanner.py` - исполняемый файл
+4. `README.md` - у вас перед глазами
+5. `requirements.txt` - файл для установки всех зависимостей с помощью `pip freeze`
+6. `test_port_scanner.py` - набор тестов
 
 ## Важно
 Если вы работаете с большим диапазоном портов, от `5000`, рекомендуется увеличить время жизни соединения. По умолчанию стоит 5 секунд.
